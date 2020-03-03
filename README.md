@@ -1,4 +1,10 @@
 # Lovezz
+
+#重要提醒！！
+本项目前端已经成功分离，代码参考https://github.com/Li-Weijian/lovezz-web
+本项目适配前后端分离架构的分支为https://github.com/Li-Weijian/Lovezz/tree/20200115%E5%88%86%E7%A6%BB%E5%89%8D%E7%AB%AF
+请注意切换
+
 ### 项目说明
 和峥峥相处过程中 发现的需求, 一直在迭代。
 目前开发的功能有： 定时发送短信、纪念日、情侣待办、图库、登录功能。

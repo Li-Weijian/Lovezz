@@ -24,8 +24,8 @@ import java.util.*;
  * @Description:
  */
 
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class NoticeAspect {
 
     @Autowired
