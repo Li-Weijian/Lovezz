@@ -24,7 +24,7 @@ public class MenuController {
 
     @RequestMapping("/toMenu")
     public ModelAndView toMenu(ModelAndView modelAndViewd){
-        List<TbMenu> menuList = menuService.selectList(new EntityWrapper<TbMenu>().eq("isDelete", "0"));
+        List<TbMenu> menuList = menuService.selectList(new EntityWrapper<TbMenu>().eq("isDelete", "0").eq("type","1"));
 
         modelAndViewd.addObject("menuList",menuList);
         modelAndViewd.setViewName("menu/index");
